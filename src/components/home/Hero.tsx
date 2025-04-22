@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="relative bg-gradient-to-r from-champion-800 to-champion-900 text-white py-20 md:py-28">
+    <div className="relative bg-gradient-to-r from-champion-800 to-champion-900 text-white py-20 md:py-28 
+      bg-gradient-to-r from-[#accbee] to-[#e7f0fd]">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-0 left-0 right-0 h-40 bg-white/10"></div>
@@ -14,11 +15,11 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-champion-800">
             Qualify for the Best Funding Solutions Guaranteed
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 text-white/90">
+          <p className="text-xl md:text-2xl mb-8 text-champion-900">
             <span className="font-semibold">$250 Million Funded & Counting</span> - Get the capital your business needs to thrive
           </p>
           
@@ -26,7 +27,7 @@ const Hero = () => {
             <Button asChild size="lg" className="bg-teal-500 hover:bg-teal-600 text-lg px-8 py-6">
               <Link to="/contact">Apply Now</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-2 border-white bg-transparent hover:bg-white hover:text-champion-800 text-lg px-8 py-6">
+            <Button asChild variant="outline" size="lg" className="border-2 border-champion-800 bg-transparent hover:bg-champion-800 hover:text-white text-lg px-8 py-6">
               <Link to="/funding">Explore Solutions</Link>
             </Button>
           </div>
