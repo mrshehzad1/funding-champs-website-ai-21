@@ -52,6 +52,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				champion: {
+					50: '#f0f6fc',
+					100: '#dceaf8',
+					200: '#c1daf3',
+					300: '#96c4ea',
+					400: '#65a5de',
+					500: '#4185d0',
+					600: '#3069c1',
+					700: '#2953a8',
+					800: '#1A365D', // Primary deep blue
+					900: '#1c2e54',
+				},
+				teal: {
+					500: '#38B2AC', // Secondary teal accent
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
