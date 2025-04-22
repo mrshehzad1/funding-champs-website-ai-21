@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -14,7 +15,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/83c83de6-ffd7-413d-a4d9-5b69e5b4d573.png" 
             alt="Champion Worldwide Logo" 
-            className="h-12 mr-4"
+            className="h-16 md:h-20 mr-4" // Increased from h-12 to h-16/h-20
           />
         </Link>
         
