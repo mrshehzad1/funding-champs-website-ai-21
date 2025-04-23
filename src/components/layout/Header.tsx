@@ -12,9 +12,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/83c83de6-ffd7-413d-a4d9-5b69e5b4d573.png" 
+            src="/lovable-uploads/7a6cf759-f305-440a-a2e0-6533d626603b.png" 
             alt="Champion Worldwide Logo" 
-            className="h-24 md:h-28 object-contain" // Increased height and added object-contain
+            className="h-16 md:h-20 object-contain" // Adjusted size for better visibility
           />
         </Link>
         
