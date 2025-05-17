@@ -1,18 +1,10 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CheckCircle } from "lucide-react";
-
 const BusinessFunding = () => {
-  return (
-    <main>
+  return <main>
       {/* Hero Section */}
       <section className="bg-champion-800 text-white py-16 md:py-20">
         <div className="container mx-auto px-4">
@@ -40,7 +32,7 @@ const BusinessFunding = () => {
 
           <Tabs defaultValue="unsecured" className="max-w-4xl mx-auto">
             <TabsList className="grid grid-cols-3 md:grid-cols-6 mb-8">
-              <TabsTrigger value="unsecured">Unsecured Loans</TabsTrigger>
+              <TabsTrigger value="unsecured" className="text-xs">Unsecured Loans</TabsTrigger>
               <TabsTrigger value="revolving">Lines of Credit</TabsTrigger>
               <TabsTrigger value="sba">SBA Loans</TabsTrigger>
               <TabsTrigger value="equipment">Equipment</TabsTrigger>
@@ -546,8 +538,6 @@ const BusinessFunding = () => {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>;
 };
-
 export default BusinessFunding;
