@@ -1,8 +1,10 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { HandshakeIcon, Users } from "lucide-react";
 import { CheckCircle } from "lucide-react";
+
 const Partners = () => {
   return <main>
       {/* Hero Section */}
@@ -45,27 +47,27 @@ const Partners = () => {
               <h3 className="text-2xl font-bold text-champion-800 mb-6">Partner Benefits</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-1" size={20} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-1 h-5 w-5 shrink-0" />
                   <span>Generous commission structure on funded deals</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-1" size={20} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-1 h-5 w-5 shrink-0" />
                   <span>Quick approval process for your clients</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-1" size={20} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-1 h-5 w-5 shrink-0" />
                   <span>Marketing materials and support</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-1" size={20} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-1 h-5 w-5 shrink-0" />
                   <span>Dedicated partnership manager</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-1" size={20} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-1 h-5 w-5 shrink-0" />
                   <span>Online portal to track referrals and commissions</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-1" size={20} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-1 h-5 w-5 shrink-0" />
                   <span>Training and educational resources</span>
                 </li>
               </ul>
@@ -97,15 +99,15 @@ const Partners = () => {
               </p>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Commission rates from 1-3% based on volume</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Simple referral process</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>No minimum referral requirements</span>
                 </li>
               </ul>
@@ -123,15 +125,15 @@ const Partners = () => {
               </p>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Higher commission rates of 3-5%</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Co-branded marketing materials</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Regular training and updates</span>
                 </li>
               </ul>
@@ -149,15 +151,15 @@ const Partners = () => {
               </p>
               <ul className="text-gray-700 mb-6 space-y-2">
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Premium commission rates of 5-10%</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Customized funding solutions</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0" size={16} />
+                  <CheckCircle className="text-teal-500 mr-2 mt-0.5 shrink-0 h-5 w-5" />
                   <span>Dedicated account executive</span>
                 </li>
               </ul>
