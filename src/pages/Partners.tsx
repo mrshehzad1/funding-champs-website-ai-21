@@ -1,13 +1,10 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { HandshakeIcon, Users } from "lucide-react";
 import { CheckCircle } from "lucide-react";
-
 const Partners = () => {
-  return (
-    <main>
+  return <main>
       {/* Hero Section */}
       <section className="bg-champion-800 text-white py-16 md:py-20">
         <div className="container mx-auto px-4">
@@ -44,7 +41,7 @@ const Partners = () => {
                 funding and enjoy the benefits of our marketing expertise and support.
               </p>
             </div>
-            <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+            <div className="bg-gray-50 p-8 rounded-lg shadow-md px-[19px]">
               <h3 className="text-2xl font-bold text-champion-800 mb-6">Partner Benefits</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -225,8 +222,6 @@ const Partners = () => {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>;
 };
-
 export default Partners;
