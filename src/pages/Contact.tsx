@@ -1,13 +1,10 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <main className="min-h-screen">
+  return <main className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-champion-800 text-white py-16 md:py-20">
         <div className="container mx-auto px-4">
@@ -32,7 +29,7 @@ const Contact = () => {
                   Have questions about our funding solutions? Want to know if your business qualifies? Our team is ready to help you navigate the funding process and find the right solution for your needs.
                 </p>
                 
-                <div className="bg-white p-8 rounded-lg shadow-md mb-8">
+                <div className="bg-white p-8 rounded-lg shadow-md mb-8 px-[17px]">
                   <div className="flex items-start mb-6">
                     <div className="bg-champion-100 p-3 rounded-full mr-4">
                       <Phone className="h-6 w-6 text-champion-800" />
@@ -72,23 +69,13 @@ const Contact = () => {
                       <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
                         First Name *
                       </label>
-                      <Input 
-                        type="text"
-                        id="firstName"
-                        placeholder="Your first name"
-                        required
-                      />
+                      <Input type="text" id="firstName" placeholder="Your first name" required />
                     </div>
                     <div>
                       <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
                         Last Name *
                       </label>
-                      <Input 
-                        type="text"
-                        id="lastName"
-                        placeholder="Your last name"
-                        required
-                      />
+                      <Input type="text" id="lastName" placeholder="Your last name" required />
                     </div>
                   </div>
 
@@ -96,57 +83,35 @@ const Contact = () => {
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                       Email Address *
                     </label>
-                    <Input 
-                      type="email"
-                      id="email"
-                      placeholder="Your email address"
-                      required
-                    />
+                    <Input type="email" id="email" placeholder="Your email address" required />
                   </div>
 
                   <div className="mb-4">
                     <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
                       Phone Number *
                     </label>
-                    <Input 
-                      type="tel"
-                      id="phone"
-                      placeholder="Your phone number"
-                      required
-                    />
+                    <Input type="tel" id="phone" placeholder="Your phone number" required />
                   </div>
 
                   <div className="mb-4">
                     <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
                       Company Name
                     </label>
-                    <Input 
-                      type="text"
-                      id="company"
-                      placeholder="Your company name"
-                    />
+                    <Input type="text" id="company" placeholder="Your company name" />
                   </div>
 
                   <div className="mb-4">
                     <label htmlFor="fundingAmount" className="block text-sm font-medium text-gray-700 mb-1">
                       Desired Funding Amount
                     </label>
-                    <Input 
-                      type="text"
-                      id="fundingAmount"
-                      placeholder="e.g. $50,000"
-                    />
+                    <Input type="text" id="fundingAmount" placeholder="e.g. $50,000" />
                   </div>
 
                   <div className="mb-6">
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                       Message
                     </label>
-                    <Textarea
-                      id="message"
-                      placeholder="Tell us about your business and funding needs"
-                      rows={5}
-                    />
+                    <Textarea id="message" placeholder="Tell us about your business and funding needs" rows={5} />
                   </div>
 
                   <Button type="submit" className="bg-champion-800 hover:bg-champion-700 w-full" size="lg">
@@ -158,8 +123,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>;
 };
-
 export default Contact;
