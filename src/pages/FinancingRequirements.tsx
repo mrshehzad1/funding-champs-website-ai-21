@@ -1,18 +1,10 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { FileText } from "lucide-react";
-
 const FinancingRequirements = () => {
-  return (
-    <main>
+  return <main>
       {/* Hero Section */}
       <section className="bg-champion-800 text-white py-16 md:py-20">
         <div className="container mx-auto px-4">
@@ -37,7 +29,7 @@ const FinancingRequirements = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-8 mb-12">
+            <div className="bg-white rounded-lg shadow-md p-8 mb-12 px-[19px]">
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="business-info">
                   <AccordionTrigger className="text-lg font-semibold text-champion-800">
@@ -252,8 +244,6 @@ const FinancingRequirements = () => {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>;
 };
-
 export default FinancingRequirements;
