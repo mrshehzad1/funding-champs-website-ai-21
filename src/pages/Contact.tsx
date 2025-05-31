@@ -4,16 +4,9 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone } from "lucide-react";
 import SEO from "@/components/SEO";
-
 const Contact = () => {
-  return (
-    <>
-      <SEO 
-        title="Contact Champion Worldwide | Business Funding Experts - Get Started Today"
-        description="Contact Champion Worldwide for business funding solutions. Our experts are ready to help you get qualified for the best funding options. Call (917) 299-6455 or apply online."
-        keywords="contact business funding, funding consultation, business loan experts, Champion Worldwide contact, apply for funding"
-        canonicalUrl="https://championworldwide.com/contact"
-      />
+  return <>
+      <SEO title="Contact Champion Worldwide | Business Funding Experts - Get Started Today" description="Contact Champion Worldwide for business funding solutions. Our experts are ready to help you get qualified for the best funding options. Call (917) 299-6455 or apply online." keywords="contact business funding, funding consultation, business loan experts, Champion Worldwide contact, apply for funding" canonicalUrl="https://championworldwide.com/contact" />
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="bg-champion-800 text-white py-16 md:py-20">
@@ -46,7 +39,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold text-champion-800 mb-1">Call Us</h3>
-                        <p className="text-gray-600">(888) 123-4567</p>
+                        <p className="text-gray-600">917-299-6455</p>
                         <p className="text-gray-500 text-sm mt-1">Monday to Friday: 8am - 6pm EST</p>
                       </div>
                     </div>
@@ -57,7 +50,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold text-champion-800 mb-1">Email Us</h3>
-                        <p className="text-gray-600">info@championworldwide.com</p>
+                        <p className="text-gray-600">worldwidefundingchamps @gmail.com</p>
                         <p className="text-gray-500 text-sm mt-1">We typically respond within 24 hours</p>
                       </div>
                     </div>
@@ -134,8 +127,6 @@ const Contact = () => {
           </div>
         </section>
       </main>
-    </>
-  );
+    </>;
 };
-
 export default Contact;
